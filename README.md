@@ -1,17 +1,51 @@
-# React + Vite
+# React Youtube Clone 
+  A YouTube clone built using React and vite.
+# Table of Content
+- About
+- Demo
+- Features
+- Installation
+- Contributing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ 
+# About
+This is the clone of Youtube app , from which you can play any videos what ever  you want like song , study stuff like DSA  etc , dance videos and all . Basically you can do everything  that you do on Youtube  but you can't upload your videos  on this . I have created this react app to enhance my skills .
 
-Currently, two official plugins are available:
+# Demo 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<Link >
 
+# Features
+- Search functionality
+- Notifications
+- User profiles and subscriptions
 
-if you want to clone this repo then use the follwing command 
+# Installation
+1. Clone the repository:
 
-git clone <repo link >
+ ```bash
+  git clone "https://github.com/codERSunny812/Yt-clone.git"
+```
+2. go to the projectory
 
-then do the following command 
+```bash
+ cd youtubeClone
+```
+
+3. Install the dependencies
+
+```bash
  yarn install
- yarn dev - to start the devlopment sevrer
+```
+4. go to the projectory
+
+```bash
+ yarn dev
+```
+# Contributing
+
+Feel Free to Contribute to this 
+
+
+
+
