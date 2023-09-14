@@ -12,7 +12,7 @@
  function App(){
   return (
     <BrowserRouter>
-    <Box sx= {{ backgroundColor:"#000"}}>
+    <Box sx= {{ backgroundColor:"#040D12"}}>
     <Header />
     <Routes>
       <Route path="/" exact element={<Body/>} />
