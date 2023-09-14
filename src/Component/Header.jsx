@@ -9,13 +9,13 @@ function Header (){
     return (
 <Stack 
 alignItems="centre" 
-p={2}  
+p={2}
 direction="row" 
 sx={{position:"sticky" , 
 top:0, 
-backgroundColor:"#000" , justifyContent:"space-between"}}>
+backgroundColor:"#040D12" , justifyContent:"space-between"}}>
     <Link to="/" style={{display:"flex" , alignItems:"centre"}}> 
-    <img  src={logo} alt="logo" height={45} />
+    <img  src={logo} alt="logo" height={45} /> 
      </Link>
      <SearchBar />
 

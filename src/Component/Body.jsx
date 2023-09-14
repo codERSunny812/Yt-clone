@@ -1,5 +1,6 @@
 import { Box, Stack , Typography } from "@mui/material";
 import SideBar from "./SideBar";
+import Videos from "./Videos";
 
 
 
@@ -15,7 +16,16 @@ function Body (){
     CopyRight 2023 Sunny 
 </Typography>
 
+</Box>  
+
+<Box p={2}>
+    <Typography variant="h4" fontWeight="bold" mb={2} sx={{color:"white"}} >
+    New  <span style={{color:'#F31503'}}> Videos</span>
+    </Typography>
+    {/* Now Render the videos section  */}
+    <Videos/>
 </Box>
+
 
 </Stack>
     );

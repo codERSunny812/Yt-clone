@@ -8,7 +8,7 @@ const SearchBar = () => {
   return (
     <Paper component="form" onSubmit={()=>{ }} sx ={{borderRadius:20, border: " 1px solid #e3e3e3" , pl:2 , mr:{sm:5} , boxShadow:'none' }} > 
       <input  className='search-bar' placeholder='Please Search Something ...' value= "sunny" onChange={()=>{}} /> 
-      <IconButton type='submit' sx={{p:'10px',color:'red '}}>
+      <IconButton type='submit' sx={{p:'10px',color:'black'}}>
         <Search />
 
       </IconButton>

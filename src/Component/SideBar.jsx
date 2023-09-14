@@ -18,10 +18,10 @@ const SideBar = () =>(
         {
             categories.map((category ) =>(
                 <button className="category-btn" style={{
-                    background: category.name  == selected && '#FC1503' , color:'white' 
+                    background: category.name  === selected && '#CF3B7' , color:'grey' 
                 }}
                 key ={category.name}>
-                    <span style ={{color: category.name  === selected ? 'white' : 'red' , marginRight:'15px'}}>{category.icon }</span>
+                    <span style ={{color: category.name  === selected ? 'grey' : '#CF3B7' , marginRight:'15px'}}>{category.icon }</span>
                     <span style = {{opacity : category.name  == selected ? '1':'0.8' }}>{category.name}</span>
                 </button>
              ) )
