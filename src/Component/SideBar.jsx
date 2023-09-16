@@ -1,10 +1,9 @@
 /* eslint-disable react/jsx-key */
 import { Stack } from "@mui/material"
 import {categories} from '../utils/constant'
+ 
 
-const selected  = 'New'; 
-
-const SideBar = () =>(
+const SideBar = ({selectedState , setSelectedState}) =>(
     <Stack 
     direction="row" 
     sx={{
@@ -17,7 +16,11 @@ const SideBar = () =>(
 
         {
             categories.map((category ) =>(
-                <button className="category-btn" style={{
+                <button className="category-btn" 
+                onClick={setSelectedState(() => {
+                 {category.name}
+                })}
+                style={{
                     background: category.name  === selected && '#CF3B7' , color:'grey' 
                 }}
                 key ={category.name}>
